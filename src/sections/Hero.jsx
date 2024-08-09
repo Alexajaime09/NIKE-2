@@ -58,7 +58,7 @@ const[bigShoeImg, setBigShoeImg]= useState(bigShoe1)
               {shoes.map((shoe)=>(
                 <div key={shoe}>
                   <ShoeCard
-                  imgURL={shoe}
+                  imageURL={shoe}
                   changeBigShoeImage={(shoe)=> setBigShoeImg(shoe)}
                   bigShoeImg={bigShoeImg} />
                 </div>

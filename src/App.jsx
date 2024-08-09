@@ -1,9 +1,11 @@
 import {CustomerReviews, Footer, Hero, PopularProducts, Services, SpecialOffer, Subscribe, SuperQuality} from './sections'
 import Nav from './components/Nav'
+import PopularProductCard from './components/PopularProductCard';
 
 const App=()=>(
   <main>
    <Nav />
+  <PopularProductCard/>
 
 
     <section className="xl:padding-l wide:padding-r padding-b">

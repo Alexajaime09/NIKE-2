@@ -6,6 +6,7 @@ import Services from './Services';
 import SpecialOffer from './SpecialOffer';
 import Subscribe from './Subscribe';
 import SuperQuality from './SuperQuality';
+import PopularProductCard from '../components/PopularProductCard';
 
 
 
@@ -17,5 +18,6 @@ export  {
     Services,
     SpecialOffer,
     Subscribe,
-    SuperQuality
+    SuperQuality,
+    PopularProductCard
 }
